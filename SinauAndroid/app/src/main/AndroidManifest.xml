@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bekatei.sinauandroid">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Pita4" />
+        <activity
+            android:name=".SplashScreen"
+            android:noHistory="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+
+            <!--
+        Tambahkan noHistory supaya ketika di-back di Menu Utama tidak kembali ke halaman Splashscreen
+        Dan pilih theme dengan NoActionBar supaya tidak terdapat action bar di atas halaman Splashscreen
+            -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--
+        Pindahkan intent filter yang sebelumnya di MainActivity ke Splashscreen Activity.
+        intent-filter ini digunakan untuk memilih activity mana yang pertama kali dibuka
+        -->
+        <activity android:name=".About"></activity>
+    </application>
+
+</manifest>

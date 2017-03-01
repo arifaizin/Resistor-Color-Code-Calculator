@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.bekatei.sinauandroid.Pita4"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="1"
+            android:id="@+id/nilaipita1"
+            android:layout_column="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:textSize="30dp" />
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="2"
+            android:id="@+id/nilaipita2"
+            android:layout_column="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:layout_gravity="center"
+            android:textSize="30dp" />
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="X1000"
+            android:id="@+id/nilaipita3"
+            android:layout_column="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:layout_gravity="center"
+            android:textSize="30dp" />
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="±"
+            android:id="@+id/textView6"
+            android:layout_column="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:layout_gravity="center"
+            android:textSize="30dp" />
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="0.25%"
+            android:id="@+id/nilaipita4"
+            android:layout_column="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:layout_gravity="center"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Warna Pita 1"
+        android:id="@+id/textView"
+        android:layout_column="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner1"
+        android:layout_column="2"
+        android:spinnerMode="dialog" />
+
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Warna Pita 2"
+        android:id="@+id/textView3"
+        android:layout_column="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner2"
+        android:layout_column="2"
+        android:spinnerMode="dialog" />
+
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Warna Pita 3"
+        android:id="@+id/textView4"
+        android:layout_column="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner3"
+        android:layout_column="2"
+        android:spinnerMode="dialog" />
+
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Warna Pita 4"
+        android:id="@+id/textView5"
+        android:layout_column="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner4"
+        android:layout_column="2"
+        android:spinnerMode="dialog" />
+
+</LinearLayout>
